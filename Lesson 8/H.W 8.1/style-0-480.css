@@ -1,0 +1,97 @@
+@media screen and (max-width: 480px ) {
+
+        *{
+                margin: 0;
+        }
+        img {
+                background-size: cover;
+        }
+        .wrapper{
+                display: flex;
+                width: 375px;
+                padding: 32px 16px;
+                flex-direction: column;
+                /*align-items: flex-start;*/
+                gap: 10px;
+        }
+        .top{
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+        /*}*/
+        /*.top>div{*/
+        /*        display: flex;*/
+        /*        flex-direction: column;*/
+        /*        align-items: center;*/
+        /*        justify-content: center;*/
+        /*        flex: 1 0 0;*/
+        /*}*/
+        /*.top>div>h1{*/
+        /*        color: #000;*/
+        /*        text-align: center;*/
+
+        /*        !* Text/1 strong *!*/
+        /*        font-family: Inter,sans-serif;*/
+        /*        font-size: 20px;*/
+        /*        font-weight: 700;*/
+        /*        line-height: 120%; !* 24px *!*/
+
+        /*        margin: 20px 0 15px 0;*/
+        /*}*/
+        /*.top>div>p{*/
+        /*        align-self: stretch;*/
+
+        /*        color: #3C3C43;*/
+        /*        text-align: center;*/
+
+        /*        !* Capital/1 strong *!*/
+        /*        font-family: Inter,sans-serif;*/
+        /*        font-size: 13px;*/
+        /*        font-weight: 700;*/
+        /*        line-height: 120%; !* 15.6px *!*/
+        /*        letter-spacing: 1.5px;*/
+        /*        text-transform: uppercase;*/
+        }
+        .bot{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 32px;
+        }
+        /*.bot>div{*/
+        /*        display: flex;*/
+        /*        flex-direction: column;*/
+        /*        align-items: center;*/
+        /*        justify-content: center;*/
+        /*        flex: 1 0 0;*/
+        /*}*/
+        /*.bot>div>h1{*/
+        /*        color: #000;*/
+        /*        text-align: center;*/
+
+        /*        !* Text/1 strong *!*/
+        /*        font-family: Inter,sans-serif;*/
+        /*        font-size: 20px;*/
+        /*        font-weight: 700;*/
+        /*        line-height: 120%; !* 24px *!*/
+
+        /*        margin: 20px 0 15px 0;*/
+        /*}*/
+        /*.bot>div>p{*/
+        /*        align-self: stretch;*/
+
+        /*        color: #3C3C43;*/
+        /*        text-align: center;*/
+
+        /*        !* Capital/1 strong *!*/
+        /*        font-family: Inter,sans-serif;*/
+        /*        font-size: 13px;*/
+        /*        font-weight: 700;*/
+        /*        line-height: 120%; !* 15.6px *!*/
+        /*        letter-spacing: 1.5px;*/
+        /*        text-transform: uppercase;*/
+        }
+
+

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*------------------------------------------HEADER-----------------------------------------*/
+.active-link{
+    color:green;
+}
+
+header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header div{
+  text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+        display: flex;
+        gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/*------------------------------------------MAIN---------------------------------------------*/
+main{
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+/*------------------------------------------MAIN HOME----------------------------------------*/
+.main-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-top: 50px;
+
+}
+
+.main-home p{
+    font-size: 20px;
+}
+
+.main-home h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+.main-home button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.main-home button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: #c7f2dc;
+}
+/*-----------------------------------------MAIN-CONTACT--------------------------------------*/
+.main-contact div{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+}
+
+.main-contact-image{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.main-contact-image h4 a{
+    background-color: black;
+    color: #e6e5e5;
+    border: 10px solid black;
+    border-radius: 90%;
+}
+
+.main-contact-image h4 a:hover{
+    border: 15px double black;;
+    transition: 1s;
+    color: #c7f2dc;
+}
+
+.main-contact p{
+    background-color: #c7f2dc;
+    border: 2px solid black;
+}
+
+.main-contact h5{
+    font-size: 24px;
+    background-color: #c7f2dc;
+    color: black;
+    border: 2px solid #c7f2dc;
+}
+/*--------------------------------------------MAIN-SERVICE------------------------------------*/
+.main-service h2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 45px;
+}
+.main-service p{
+    background-color: #e1fff4;
+
+
+    display: inline-block;
+    margin-left: 25%;
+    padding: 20px;
+}
+/*------------------------------------------MAIN-BLOG-----------------------------------------*/
+.main-blog{
+    height: 90vh;
+    width: 100vw;
+}
+section{
+
+    background-color: #1272c5;
+    width: 30vw;
+    height: 85vh;
+}

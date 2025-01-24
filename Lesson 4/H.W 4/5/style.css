@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 5vh;
+    background-color: #D9D9D9;
+}
+main{
+    display: flex;
+    height: 70.5vh;
+}
+aside{
+    height: 70.5vh;
+    width: 54vw;
+    background-color: #A4A4A4;
+}
+.section{
+    height: 70.5vh;
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.sec_top{
+    height: 41vh;
+    width: 46vw;
+    background-color: #7F7A7A;
+}
+.sec_down{
+    height: 41vh;
+    width: 46vw;
+    background-color: #615050;
+}
+footer{
+    height: 24.5vh;
+}
+.sec2{
+    height: 11vh;
+    background-color: #D9D9D9;
+}
+.sec3{
+    height: 13.5vh;
+    background-color: #AFA9A9;
+}
