@@ -91,7 +91,7 @@ header>nav>ul>li:nth-last-child(1){
     border-radius: 4px;
     background:#6246EA;
 }
-svg{
+nav ul svg{
     margin-right: 10px;
 }
 /*----------------------------SECTION----------------------------------------*/
@@ -130,6 +130,9 @@ section>div>p{
     /* 20 px - Paragraph 1 */
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
+
+    border-left: 3px solid #2B2C34;
+    padding-left: 12px;
 
 }
 
@@ -183,20 +186,16 @@ section>div>img{
 /*------------------------------------ASIDE----------------------------------------*/
 aside{
     height: 500px;
-}
-.aside-container{
 
+    background: #EFF0F3;
 }
+
 .aside-name{
     display: flex;
-    width: 1252px;
-    height: 35px;
-    padding: 2px 0 3px 0;
+    justify-content: space-between;
 
-    margin: 67px 94px 0 94px;
-    justify-content: center;
-    align-items: center;
-    gap: 842px;
+    padding: 67px 94px 0 94px;
+
 }
 .aside-name>h3{
     color: #2B2C34;
@@ -209,7 +208,167 @@ aside{
 }
 .aside-name>a{
     color: #2B2C34;
-    text-align: right;
+
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.aside-name>a>svg {
+
+    padding-top: 2px;
+}
+
+.aside-card{
+    display: flex;
+    gap: 37px;
+
+    padding: 50px 96px 68px 96px ;
+}
+
+.card{
+    width: 220px;
+    height: 280px;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    background-color:#FFFFFE ;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+
+.card:hover{
+    background-color: #6246EA;
+
+    color: #FFFFFE;
+}
+
+
+.card>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    margin: 65px auto 95px 30px;
+
+}
+
+.logo-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 7.458px;
+    background: #FFFFFE;
+
+}
+
+.card>div>p{
+    color: #2B2C34;
+
+    /* 24 px - Sub heading 1 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card div :hover{
+    color: #FFFFFE;
+}
+/*----------------------------------MAIN----------------------------------*/
+
+main{
+    width: 1440px;
+    height: 2400px;
+    background: #FFFFFE;
+    display: flex;
+
+    gap: 80px;
+
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main-container{
+
+    height: 490px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 30px;
+
+    padding-top: 80px;
+    padding-right: 94px;
+    padding-left: 94px;
+
+}
+.main-card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-name{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-name>h3{
+    color: #2B2C34;
+
+    /* 24 px - Sub heading 1 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.main-name>a{
+    color: #2B2C34;
+
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.main-name svg {
+    padding-top: 2px;
+}
+
+.main-card{
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    gap: 55px;
+
+    border-radius: 12px;
+    background: #FFFFFE;
+
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+}
+
+.main-card h5{
+    width: 260px;
+
+    color: #2B2C34;
 
     /* 20 px - Sub Heading 2 */
     font-family: "Plus Jakarta Sans",sans-serif;
@@ -218,4 +377,67 @@ aside{
     text-transform: capitalize;
 }
 
-.aside-container{}
+.card-gap{
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 25px;
+}
+
+.ellipse{
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+
+    margin-top: auto;
+
+}
+.ellipse h6{
+    color: #2B2C34;
+
+    /* 16 px - Paragraph 3 Semi bold */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ellipse p{
+    width: 184px;
+    height: 21px;
+
+    color: #2B2C34;
+
+    /* 14 px - Paragraph 4 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.main-card div div{
+    display: flex;
+    flex-direction: column;
+}
+
+main>button{
+
+    margin: auto;
+
+    display: flex;
+    padding: 20px 23px 19px 23px;
+
+    gap: 10px;
+
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+
+
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
