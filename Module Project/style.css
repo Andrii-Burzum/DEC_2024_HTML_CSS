@@ -32,7 +32,7 @@ header{
 }
 
 .header-logo{
-    margin-left: 95px;
+    padding-left: 95px;
 
     display: inline-flex;
     justify-content: center;
@@ -42,9 +42,7 @@ header{
     color: #001858;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 .header-logo>div:nth-child(2){
     width: 48px;
@@ -53,9 +51,7 @@ header{
     color: #6246EA;
     font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 nav>ul{
@@ -283,14 +279,14 @@ aside{
     font-weight: 700;
     text-transform: capitalize;
 }
-.card div :hover{
+.card:hover p{
     color: #FFFFFE;
 }
 /*----------------------------------MAIN----------------------------------*/
 
 main{
     width: 1440px;
-    height: 2400px;
+    /*height: 2400px;*/
     background: #FFFFFE;
     display: flex;
 
@@ -298,6 +294,7 @@ main{
 
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 80px;
 
 }
 .main-container{
@@ -423,7 +420,9 @@ main{
 
 main>button{
 
-    margin: auto;
+    margin: 50px auto 0 auto;
+
+
 
     display: flex;
     padding: 20px 23px 19px 23px;
@@ -440,4 +439,206 @@ main>button{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
+}
+/*-----------------------------------ASIDE_BOT-------------------------------*/
+
+.aside-bot{
+    height: 453px;
+}
+.aside-bot-container{
+    padding: 58px 372px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background: #EFF0F3;
+}
+
+.aside-bot-logo{
+    width: 130px;
+    height: 130px;
+
+    background: #FFFFFE;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}
+
+.aside-bot-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aside-bot-text h2{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.aside-bot-text>p{
+    /*width: 696px;*/
+
+    color: #C0C0C0;
+    text-align: center;
+
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+}
+
+.aside-bot-button{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.aside-bot-button>input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: #FFFFFE;
+}
+
+.aside-bot-button>button{
+    display: flex;
+    height: 58px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: none;
+    background: #6246EA;
+
+    color: #FFFFFE;
+
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*------------------------------------FOOTER-----------------------*/
+
+footer{
+    width: 1440px;
+    height: 460px;
+
+
+    background: #E4E5E9;
+}
+.footer-container{
+    padding: 70px 96px;
+
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 160px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-style-logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-style-logo>div:nth-child(1){
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+.footer-style-logo>div:nth-child(2){
+    width: 47px;
+    height: 27px;
+
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-logo>p{
+    width: 284px;
+
+    color: #2B2C34;
+
+    /* 18 px - Paragraph 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-logo-bot{
+    width: 190px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.footer-contact{
+    display: flex;
+    align-items: flex-start;
+    gap: 95px;
+}
+.footer-contact>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-contact>div>a:nth-child(1){
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding-bottom: 5px;
+}
+
+.footer-contact>div>a{
+    color: #2B2C34;
+
+    /* 18 px - Paragraph 2 */
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 18px;
+}
+footer hr{
+    margin: 0 auto;
+
+    width: 1250px;
+    height: 1px;
+
+    background: #C0C0C0;
+}
+footer>p{
+    /*width: 137px;*/
+    /*height: 18px;*/
+
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
+
+    padding: 26px 0 26px 95px;
 }
